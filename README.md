@@ -46,7 +46,8 @@
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Java](https://www.oracle.com/br/java/technologies/downloads/), [Apache Netbeans] (https://netbeans.apache.org/) 
 1. Esse projeto usa Maven, para isso siga as orientações a seguir:
-   - Adicionar as dependências (maven-surefire-plugin, junit-jupiter-api, junit-jupiter-engine, org.hamcrest, junit-platform-suite-api, junit-platform-runner) no arquivo pom.xml do projeto. Consulte a dependência em https://mvnrepository.com/  
+   - Adicionar as dependências (maven-surefire-plugin, junit-jupiter-api, junit-jupiter-engine, org.hamcrest, junit-platform-suite-api, junit-platform-suite-engine) no arquivo pom.xml do projeto. Consulte a dependência em https://mvnrepository.com/
+   - Adicionar plugin (maven-surefire-plugin) no build do arquivo pom.xml do projeto. 
    - A organização do projeto segue a seguinte estrutura:
      - Projeto
        - Source Packages(src)
