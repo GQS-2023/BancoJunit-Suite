@@ -119,7 +119,7 @@ public class Banco {
                     System.out.print("Quanto deseja sacar? ");
                     valor = input.nextDouble();
                     if (conta != null) {
-                        conta.depositar(valor);
+                        conta.sacar(valor);
                         System.out.println("Novo saldo: R$ " + conta.getSaldo());
                     } else {
                         System.out.println("Conta não encontrada!");
